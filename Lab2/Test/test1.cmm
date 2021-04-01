@@ -1,0 +1,26 @@
+struct A
+{
+	int a[36][36];
+	int b;
+	float c;
+	int d;
+};
+
+struct B
+{
+	int a1[43][23];
+	struct 
+	{
+		int b1;
+		float c1;
+	} e;
+	int d1;
+};
+
+int main()
+{
+	struct A x;
+	struct B y;
+	x = y;
+}
+

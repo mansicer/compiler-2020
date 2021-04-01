@@ -1,0 +1,3 @@
+struct P{
+  int a[98], b;
+}p;

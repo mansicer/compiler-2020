@@ -1,0 +1,13 @@
+struct A {
+	int a = 0;
+	float b;
+} s;
+int func(int a1, int a2, float a3, int a4)
+{
+	return 1;
+}
+int main()
+{
+	int x, y;
+	func(x, s, y);
+}
